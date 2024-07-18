@@ -1,0 +1,6 @@
+aws_region         = "ap-southeast-4"
+vpc_cidr           = "10.0.0.0/16"
+public_subnet_cidr = "10.0.1.0/24"
+availability_zone  = "ap-southeast-4a"
+ami_id             = "ami-09871461b40a093ff"
+instance_type      = "t3.medium"
