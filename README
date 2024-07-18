@@ -1,0 +1,20 @@
+# Code for EnergyOne code test only
+
+## Step One ---Clone code to local with https
+
+```
+cd path/to/your/directory
+git clone https://github.com/JakaiXu/energyone-codetest.git
+cd directory
+git code .
+
+```
+
+## Step Two ---Create EC2 on AWS with Terraform
+Install terraform on your device first
+
+```
+terraform init 
+terraform plan
+terraform apply
+```
